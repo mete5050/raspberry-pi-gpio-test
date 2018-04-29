@@ -6,7 +6,7 @@ while True:
    x = str(input())
    if(x == "AC"):
       GPIO.output(pin,GPIO.HIGH)
-      print("Acildi !!! )
+      print("Acildi !!!" )
       time.sleep(3)
    if(x == "KAPA"):
       GPIO.output(pin,GPIO.LOW)
