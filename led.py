@@ -12,4 +12,3 @@ while True:
       GPIO.output(pin,GPIO.LOW)
       print("Kapandi !!!")
       time.sleep(1)
- GPIO.cleanup()
